@@ -7,10 +7,11 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
+    string = ""
   planeteer_calls.each do |element|
-    louder_calls = "#{element.capitalize}!"
+    string += "#{element.capitalize}!"
 end
-puts louder_calls
+  puts string
 end
 
 def long_planeteer_calls# code an argument here
