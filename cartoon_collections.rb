@@ -20,8 +20,8 @@ word.length > 4
 end
 end
 
-def find_the_cheese(cheese)
+def find_the_cheese(array)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   cheese_types.find do |cheese|
+   array.find do |cheese|
      cheese == 
 end
