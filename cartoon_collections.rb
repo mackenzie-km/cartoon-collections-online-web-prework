@@ -3,6 +3,12 @@ def roll_call_dwarves(dwarf_array)
    dwarf = "#{index}"
   end
    puts dwarf_array
+   
+   katz_deli.each_with_index do |name, index|
+    string += (" #{index+1}. " + name)
+    end
+    puts string
+    end
 end
 
 
