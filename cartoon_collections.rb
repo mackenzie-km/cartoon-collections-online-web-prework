@@ -1,8 +1,6 @@
-require "pry"
 def roll_call_dwarves(dwarf_array)
   dwarf_array.each_with_index do |dwarf, index|
-    binding.pry 
-   dwarf += "1" 
+   dwarf = "#{index}"
   end
    puts dwarf_array
 end
