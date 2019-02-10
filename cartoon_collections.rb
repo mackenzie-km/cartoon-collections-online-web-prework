@@ -1,9 +1,9 @@
 def roll_call_dwarves(dwarves)
+  string = ""
   dwarves.each_with_index do |name, index|
-    string = ""
    string += ("#{index+1}. #{name}")
   end
-   puts dwarves
+   puts string
 end
 
 def summon_captain_planet(planeteer_calls)
