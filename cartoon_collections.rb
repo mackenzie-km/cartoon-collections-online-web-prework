@@ -2,8 +2,9 @@ require "pry"
 def roll_call_dwarves(dwarf_array)
   dwarf_array.each_with_index { |dwarf, index|
    dwarf += "1" }
+    binding.pry 
    puts dwarf_array
-   binding.pry 
+  
 end
 
 def summon_captain_planet# code an argument here
